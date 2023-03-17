@@ -41,6 +41,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FE733A629C443430003F852 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5FE733A729C443470003F852 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C2AF017F29C17EE100D333E5 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				C2AF01A129C1819800D333E5 /* Info.plist */,
-				C2AF01A029C180B900D333E5 /* Utilities */,
-				C2AF019F29C180AD00D333E5 /* Views */,
+				5FE733A629C443430003F852 /* Utilities */,
+				5FE733A729C443470003F852 /* Views */,
 				C2AF019D29C17FC200D333E5 /* Sounds */,
 				C2AF018B29C17EE100D333E5 /* RestartApp.swift */,
 				C2AF019E29C1809B00D333E5 /* Screens */,
@@ -97,20 +111,6 @@
 				C2AF01A429C1822F00D333E5 /* HomeView.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		C2AF019F29C180AD00D333E5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		C2AF01A029C180B900D333E5 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,7 +353,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
