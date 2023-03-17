@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FE733A929C452B00003F852 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE733A829C452B00003F852 /* CircleGroupView.swift */; };
+		5FE733B029C464850003F852 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE733AF29C464850003F852 /* CircleGroupView.swift */; };
 		C2AF018C29C17EE100D333E5 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF018B29C17EE100D333E5 /* RestartApp.swift */; };
 		C2AF018E29C17EE100D333E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF018D29C17EE100D333E5 /* ContentView.swift */; };
 		C2AF019029C17EE200D333E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF018F29C17EE200D333E5 /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FE733A829C452B00003F852 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleGroupView.swift; path = "../../../../kakao-sources/monet-iOS/KakaoTVPlayer/Source/SIS/Combine/CircleGroupView.swift"; sourceTree = "<group>"; };
+		5FE733AF29C464850003F852 /* CircleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		C2AF018829C17EE100D333E5 /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AF018B29C17EE100D333E5 /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		C2AF018D29C17EE100D333E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,17 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FE733A629C443430003F852 /* Utilities */ = {
+		5FE733AD29C464850003F852 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		5FE733A729C443470003F852 /* Views */ = {
+		5FE733AE29C464850003F852 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5FE733A829C452B00003F852 /* CircleGroupView.swift */,
+				5FE733AF29C464850003F852 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -77,9 +77,9 @@
 		C2AF018A29C17EE100D333E5 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				5FE733AD29C464850003F852 /* Utilities */,
+				5FE733AE29C464850003F852 /* Views */,
 				C2AF01A129C1819800D333E5 /* Info.plist */,
-				5FE733A629C443430003F852 /* Utilities */,
-				5FE733A729C443470003F852 /* Views */,
 				C2AF019D29C17FC200D333E5 /* Sounds */,
 				C2AF018B29C17EE100D333E5 /* RestartApp.swift */,
 				C2AF019E29C1809B00D333E5 /* Screens */,
@@ -188,10 +188,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE733A929C452B00003F852 /* CircleGroupView.swift in Sources */,
 				C2AF01A329C1822800D333E5 /* OnboardingView.swift in Sources */,
 				C2AF01A529C1822F00D333E5 /* HomeView.swift in Sources */,
 				C2AF018E29C17EE100D333E5 /* ContentView.swift in Sources */,
+				5FE733B029C464850003F852 /* CircleGroupView.swift in Sources */,
 				C2AF018C29C17EE100D333E5 /* RestartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
