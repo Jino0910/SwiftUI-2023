@@ -16,6 +16,9 @@ struct ContentView: View {
     @State private var imageOffset: CGSize = .zero
     @State private var isDrawerOpen: Bool = false
     
+    let pages: [Page] = pagesData
+    @State private var pageIndex: Int = 1
+    
     // MARK: - Function
     
     func resetImageState() {
@@ -23,6 +26,10 @@ struct ContentView: View {
             imageScale = 1
             imageOffset = .zero
         }
+    }
+    
+    func currentPage() -> String {
+        return pages[pageIndex - 1].imageName
     }
     
     // MARK: - Content
@@ -33,7 +40,7 @@ struct ContentView: View {
                 Color.clear
                 
                 // MARK: - Page Image
-                Image("magazine-front-cover")
+                Image(currentPage())
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(10)
@@ -166,8 +173,22 @@ struct ContentView: View {
                                 isDrawerOpen.toggle()
                             }
                         }
-                    Spacer()
                     // MARK: - Thumbnails
+                    ForEach(pages) { page in
+                        Image(page.thumbnailName)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 80)
+                            .cornerRadius(8)
+                            .shadow(radius: 4)
+                            .opacity(isDrawerOpen ? 1 : 0)
+                            .animation(.easeOut(duration: 0.5), value: isDrawerOpen)
+                            .onTapGesture {
+                                isAnimating = true
+                                pageIndex = page.id
+                            }
+                    }
+                    Spacer()
                 }) //: Drawer
                     .padding(EdgeInsets(top: 16, leading: 8, bottom: 16, trailing: 8))
                     .background(.ultraThinMaterial)
