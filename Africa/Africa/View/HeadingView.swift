@@ -24,6 +24,7 @@ struct HeadingView: View {
                 .font(.title3)
                 .fontWeight(.bold)
         }
+        .padding(EdgeInsets(top: 5, leading: 0, bottom: 0, trailing: 0))
     }
 }
 
