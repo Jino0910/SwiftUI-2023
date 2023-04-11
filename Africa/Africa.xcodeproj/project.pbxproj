@@ -42,6 +42,8 @@
 		C2AF026729E4229500D333E5 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF026629E4229500D333E5 /* ExternalWeblinkView.swift */; };
 		C2AF026929E424E000D333E5 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF026829E424E000D333E5 /* VideoModel.swift */; };
 		C2AF026B29E4253400D333E5 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF026A29E4253400D333E5 /* VideoListItemView.swift */; };
+		C2AF026D29E55C4000D333E5 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF026C29E55C4000D333E5 /* VideoPlayerView.swift */; };
+		C2AF027029E55E4C00D333E5 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF026F29E55E4C00D333E5 /* VideoPlayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		C2AF026629E4229500D333E5 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 		C2AF026829E424E000D333E5 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		C2AF026A29E4253400D333E5 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		C2AF026C29E55C4000D333E5 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		C2AF026F29E55E4C00D333E5 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		C2AF021129E3C6AA00D333E5 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF026E29E55E3400D333E5 /* Helper */,
 				C2AF024229E3C92500D333E5 /* App */,
 				C2AF024D29E3CBAF00D333E5 /* View */,
 				C2AF025529E3CD9300D333E5 /* Extension */,
@@ -168,10 +173,10 @@
 			children = (
 				C2AF021229E3C6AA00D333E5 /* AfricaApp.swift */,
 				C2AF021429E3C6AA00D333E5 /* ContentView.swift */,
-				C2AF024B29E3CA8600D333E5 /* VideoListView.swift */,
-				C2AF024529E3C9FE00D333E5 /* MapView.swift */,
 				C2AF024729E3CA0C00D333E5 /* GalleryView.swift */,
 				C2AF024929E3CA1100D333E5 /* MainView.swift */,
+				C2AF024529E3C9FE00D333E5 /* MapView.swift */,
+				C2AF024B29E3CA8600D333E5 /* VideoListView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				C2AF026429E407FB00D333E5 /* InsetMapView.swift */,
 				C2AF026629E4229500D333E5 /* ExternalWeblinkView.swift */,
 				C2AF026A29E4253400D333E5 /* VideoListItemView.swift */,
+				C2AF026C29E55C4000D333E5 /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +214,14 @@
 				C2AF025629E3CDA600D333E5 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		C2AF026E29E55E3400D333E5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF026F29E55E4C00D333E5 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +318,7 @@
 				C2AF025D29E3D83700D333E5 /* AnimalDetailView.swift in Sources */,
 				C2AF025B29E3D53A00D333E5 /* AnimalModel.swift in Sources */,
 				C2AF024C29E3CA8600D333E5 /* VideoListView.swift in Sources */,
+				C2AF027029E55E4C00D333E5 /* VideoPlayerHelper.swift in Sources */,
 				C2AF026529E407FB00D333E5 /* InsetMapView.swift in Sources */,
 				C2AF024629E3C9FE00D333E5 /* MapView.swift in Sources */,
 				C2AF021329E3C6AA00D333E5 /* AfricaApp.swift in Sources */,
@@ -313,6 +328,7 @@
 				C2AF026B29E4253400D333E5 /* VideoListItemView.swift in Sources */,
 				C2AF025729E3CDA600D333E5 /* CodableBundleExtension.swift in Sources */,
 				C2AF025F29E3DCA200D333E5 /* HeadingView.swift in Sources */,
+				C2AF026D29E55C4000D333E5 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
