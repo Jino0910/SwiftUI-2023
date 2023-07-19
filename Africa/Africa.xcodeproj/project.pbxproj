@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28976722A67AD8700CCFBA4 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28976712A67AD8700CCFBA4 /* LocationModel.swift */; };
 		C2AF021329E3C6AA00D333E5 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF021229E3C6AA00D333E5 /* AfricaApp.swift */; };
 		C2AF021529E3C6AA00D333E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF021429E3C6AA00D333E5 /* ContentView.swift */; };
 		C2AF021729E3C6AA00D333E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF021629E3C6AA00D333E5 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C28976712A67AD8700CCFBA4 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		C2AF020F29E3C6AA00D333E5 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AF021229E3C6AA00D333E5 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		C2AF021429E3C6AA00D333E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				C2AF025329E3CD1000D333E5 /* CoverImageModel.swift */,
 				C2AF025A29E3D53A00D333E5 /* AnimalModel.swift */,
 				C2AF026829E424E000D333E5 /* VideoModel.swift */,
+				C28976712A67AD8700CCFBA4 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				C2AF021329E3C6AA00D333E5 /* AfricaApp.swift in Sources */,
 				C2AF026929E424E000D333E5 /* VideoModel.swift in Sources */,
 				C2AF024829E3CA0C00D333E5 /* GalleryView.swift in Sources */,
+				C28976722A67AD8700CCFBA4 /* LocationModel.swift in Sources */,
 				C2AF026129E4039000D333E5 /* InsetGalleryView.swift in Sources */,
 				C2AF026B29E4253400D333E5 /* VideoListItemView.swift in Sources */,
 				C2AF025729E3CDA600D333E5 /* CodableBundleExtension.swift in Sources */,
